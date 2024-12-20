@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+.holder {
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-year {
+  font-family: 'Major Mono Display', monospace;
+  color: #cccccc;
+  font-size: 5vw;
+  position: relative;
+  text-align: center;
+}
+.year {
+  display: flex;
+  justify-content: center;
+  font-size: 10vw;
+  color: #cccccc;
+}
+.year2 {
+  transform: rotateX(180deg);
+  opacity: 0.2;
+}
+.digit {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  opacity: 0;
+}
+.controls {
+  margin-top: 3vh;
+}
+.control {
+  display: inline-block;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 2vw;
+  border-left: 1px solid #cccccc;
+  opacity: 0;
+  position: relative;
+  top: 10vh;
+  color: #cccccc;
+}
+.control:first-child {
+  border-left: none;
+}
+.triangles {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.triangle {
+  width: 0; 
+  height: 0; 
+  border-left: 0.5vw solid transparent;
+  border-right: 0.5vw solid transparent;
+  border-bottom: 0.5vw solid #cccccc;
+  position: absolute;
+  opacity: 0;
+}
+.check-back-message {
+  font-size: 2vw;
+  color: #cccccc;
+  margin-top: 1vh;
+  text-transform: none;
+}
