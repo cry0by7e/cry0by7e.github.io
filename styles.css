@@ -13,14 +13,14 @@
 .new-year {
   font-family: 'Major Mono Display', monospace;
   color: #cccccc;
-  font-size: 7vw;
+  font-size: 5vw;
   position: relative;
   text-align: center;
 }
 .year {
   display: flex;
   justify-content: center;
-  font-size: 12vw;
+  font-size: 10vw;
   color: #cccccc;
 }
 .year2 {
@@ -35,13 +35,13 @@
   opacity: 0;
 }
 .controls {
-  margin-top: 5vh;
+  margin-top: 3vh;
 }
 .control {
   display: inline-block;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  font-size: 3vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 2vw;
   border-left: 1px solid #cccccc;
   opacity: 0;
   position: relative;
@@ -62,29 +62,27 @@
 .triangle {
   width: 0; 
   height: 0; 
-  border-left: 0.7vw solid transparent;
-  border-right: 0.7vw solid transparent;
-  border-bottom: 0.7vw solid #cccccc;
+  border-left: 0.5vw solid transparent;
+  border-right: 0.5vw solid transparent;
+  border-bottom: 0.5vw solid #cccccc;
   position: absolute;
   opacity: 0;
 }
 .check-back-message {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #cccccc;
-  margin-top: 2vh;
+  margin-top: 1vh;
   text-transform: none;
 }
-
-/* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 768px) { 
   .new-year {
-    font-size: 10vw;
+    font-size: 12vw; 
   }
   .year {
-    font-size: 16vw;
+    font-size: 14vw; 
   }
   .control {
-    font-size: 3vw;
+    font-size: 3vw; 
   }
   .check-back-message {
     font-size: 3vw;
