@@ -78,10 +78,10 @@
 /* Media query for mobile devices */
 @media (max-width: 600px) {
   .new-year {
-    font-size: 8vw;
+    font-size: 10vw;
   }
   .year {
-    font-size: 14vw;
+    font-size: 16vw;
   }
   .control {
     font-size: 3vw;
